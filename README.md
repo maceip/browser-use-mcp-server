@@ -52,6 +52,15 @@ then try asking your LLM the following:
 
 ```open https://news.ycombinator.com and return the top ranked article```
 
+### development
+
+Install `pre-commit` to run linting and formatting on staged files:
+
+```bash
+uv pip install pre-commit
+pre-commit install
+```
+
 ### help
 
 for issues or interest reach out @ https://cobrowser.xyz
